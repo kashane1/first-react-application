@@ -1,35 +1,48 @@
 import React, { useState } from 'react';
-import Navigation from './Header';
-import Portfolio from './pages/Portfolio';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import BucketForm from './BucketForm';
 
-export default function Project() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+// haven't made changes to this yet, but I think its sort of the concept I want to pull from
+// taken from mini project, bucket.js component
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-  const renderPage = () => {
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    return <Contact />;
+//definitely need to work a lot on this section
+
+function Project(props) {
+  const [edit, setEdit] = useState({
+    id: null,
+    value: '',
+    eagerness: '',
+  });
+
+  console.log(props.bucket);
+
+  const submitUpdate = (value) => {
+    props.editBucketItem(edit.id, value);
+    setEdit({ id: null, value: '', eagerness: '' });
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  if (edit.id) {
+    return <BucketForm edit={edit} onSubmit={submitUpdate} />;
+  }
 
-  return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+  return props.bucket.map((item, i) => (
+    <div
+      className={
+        item.isComplete
+          ? `bucket-row complete ${item.eagerness}`
+          : `bucket-row ${item.eagerness}`
+      }
+      key={i}
+    >
+      <div key={item.id} onClick={() => props.completeBucketItem(item.id)}>
+        {item.text}
+      </div>
+      <div className="icons">
+        {console.log(item)}
+        <p onClick={() => setEdit({ id: item.id, value: item.text, eagerness: item.eagerness })}> ✏️</p>
+        <p onClick={() => props.removeBucketItem(item.id)}> 🗑️</p>
+      </div>
     </div>
-  );
+  ));
 }
+
+export default Bucket;
