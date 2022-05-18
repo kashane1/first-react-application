@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../Project';
-import img1 from '.../assets/planet-planters-screenshot.jpg'; // might have trouble here with this file path
+import img1 from '.../assets/planet-planters-screenshot.jpg'; // might have trouble here with these file paths
 import img2 from '.../assets/coding-bff-screenshot.png';
 import img3 from '.../assets/schedule-screenshot.jpg';
 import img4 from '.../assets/weather-magic-screenshot.jpg';
