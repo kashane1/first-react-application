@@ -8,11 +8,11 @@ import img4 from '.../assets/weather-magic-screenshot.jpg';
 export default function Portfolio() {
   return (
     <div>
-      <h1>My Favorite Projects:</h1>
+      <h1 className='p-2 '>My Favorite Projects:</h1>
       <p>
         This will be a large section where I pull in Project.js:
       </p>
-      <div>
+      <div className='d-flex p-1 flex-wrap justify-content-center'>
         <Project 
           image={img1} 
           title='Planet Planters' 

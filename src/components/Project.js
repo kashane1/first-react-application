@@ -16,7 +16,7 @@ function Project(props) {
 
   // i will use these: props.image props.title props.linkDeployed props.linkGitHub
   // i may need to include " " to surround the props?:
-  return <div>
+  return <div className="d-block p-3 justify-content-center">
     <a href={props.linkDeployed} target="_blank">
       <h3>{props.title}</h3>
       <img src={props.image} alt="screenshot of project" width="460" height="300">
