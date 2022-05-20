@@ -6,9 +6,9 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
       <div>
-        <h1>Kashane Sakhakorn's Resume</h1>
+        <h1 className='m-2 p-2'>Kashane Sakhakorn's Resume</h1>
       </div>
-      <ul className="nav nav-tabs justify-content-end">
+      <ul className="nav nav-tabs justify-content-end m-1">
         <li className="nav-item">
           <a
             href="#portfolio"

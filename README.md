@@ -1,36 +1,16 @@
-# first-react-application
-building first react application example
+# React Portfolio
+building my first react application
 
+## Process
+I copied over some file structure from previous projects to start with a skeleton of code that was more managable. The real work started when I was building out the pages of my portfolio and making all the components reactive. I am semi-satisfied with my finished project. I did put a lot of time into this assignment, but could easily spend 10 more hours and still not feel finished. One's portfolio should really exemplify their skillsets as well as teach the viewer a little about the person. 
 
-# 20 React: React Portfolio
+## Requirements
+1. Built a single-page react application as my own portfolio
+2. Page contains a header, section for content, and a footer
+3. Header contains my name and navigation with section names of my portfolio
 
-## Your Task
+i need ot rearrange my navbar and initial homepage
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
-
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies. 
-
-You’ll deploy this application to GitHub Pages. Follow the instructions in the Git Guide or consult the [Create React App Docs on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) to create a build that you can deploy.
-
-**Important**: Be sure to push your codebase to the default branch in GitHub -- NOT your built and deployed code. Ensure this happens by using the `gh-pages` branch to host the deployed application's build.
-
-## User Story
-
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
 THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 WHEN I click on a navigation title
 THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted

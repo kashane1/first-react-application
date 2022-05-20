@@ -5,7 +5,9 @@ import React from 'react';
 export default function Footer() {
   return (
     <div>
-      <h5 className="text-center">Portfolio last updated 5/20/2022</h5>
+      <div>
+        <h5 className='text-center p-2'>Portfolio last updated 5/20/2022</h5>
+      </div>
     </div>
   );
 }
