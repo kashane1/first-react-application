@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/first-react-application/static/js/main.8d253f46.chunk.js",
+    "main.js.map": "/first-react-application/static/js/main.8d253f46.chunk.js.map",
+    "runtime-main.js": "/first-react-application/static/js/runtime-main.8a2460dd.js",
+    "runtime-main.js.map": "/first-react-application/static/js/runtime-main.8a2460dd.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/first-react-application/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2fc083b9.chunk.js": "/first-react-application/static/js/2.2fc083b9.chunk.js",
+    "static/js/2.2fc083b9.chunk.js.map": "/first-react-application/static/js/2.2fc083b9.chunk.js.map",
+    "index.html": "/first-react-application/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/first-react-application/static/css/2.0a9ec390.chunk.css.map",
+    "static/js/2.2fc083b9.chunk.js.LICENSE.txt": "/first-react-application/static/js/2.2fc083b9.chunk.js.LICENSE.txt",
+    "static/media/coding-bff-screenshot.8b26d035.png": "/first-react-application/static/media/coding-bff-screenshot.8b26d035.png",
+    "static/media/headshot1.7027fbc2.jpg": "/first-react-application/static/media/headshot1.7027fbc2.jpg",
+    "static/media/planet-planters-screenshot.0ba4cd42.jpg": "/first-react-application/static/media/planet-planters-screenshot.0ba4cd42.jpg",
+    "static/media/schedule-screenshot.0f7383bb.jpg": "/first-react-application/static/media/schedule-screenshot.0f7383bb.jpg",
+    "static/media/weather-magic-screenshot.48fbef99.jpg": "/first-react-application/static/media/weather-magic-screenshot.48fbef99.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a2460dd.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.2fc083b9.chunk.js",
+    "static/js/main.8d253f46.chunk.js"
+  ]
+}
