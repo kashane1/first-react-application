@@ -1,6 +1,8 @@
 # React Portfolio
 building my first react application
 
+https://kashane1.github.io/first-react-application/
+
 ## Process
 I copied over some file structure from previous projects to start with a skeleton of code that was more managable. The real work started when I was building out the pages of my portfolio and making all the components reactive. I am semi-satisfied with my finished project. I did put a lot of time into this assignment, but could easily spend 10 more hours and still not feel finished. One's portfolio should really exemplify their skillsets as well as teach the viewer a little about the person. 
 
