@@ -7,7 +7,7 @@ import img4 from '../assets/weather-magic-screenshot.jpg';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className='container mb-4'>
       <h2 className='text-center p-2'>My Favorite Projects:</h2>
       <p className='text-center p-2'>
       I've gathered a few of my recent and favorite projects that each reveal some one abilities as a coder:

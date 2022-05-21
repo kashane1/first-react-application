@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <div className='container'>
       <div>
         <h2 className='text-center p-2'>Contact Page</h2>
       </div>

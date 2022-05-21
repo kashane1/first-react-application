@@ -5,10 +5,20 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
-      <div>
+      <div class='card-header border-dark'>
         <h1 className='m-2 p-2'>Kashane Sakhakorn's Resume</h1>
       </div>
-      <ul className="nav nav-tabs justify-content-end m-1">
+      <ul className="nav nav-tabs justify-content-end m-2 p-0 bg-info bg-opacity-10 border-bottom border-info">
+        <li className="nav-item">
+          <a
+            href="#about"
+            onClick={() => handlePageChange('About')}
+            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About
+          </a>
+        </li>
         <li className="nav-item">
           <a
             href="#portfolio"
@@ -18,16 +28,6 @@ function Navigation({ currentPage, handlePageChange }) {
             className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#about"
-            onClick={() => handlePageChange('About')}
-            // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
           </a>
         </li>
         <li className="nav-item">

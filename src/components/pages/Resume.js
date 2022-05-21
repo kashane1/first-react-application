@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div className='container mb-4'>
       <h2 className='text-center p-2'>Resume Page</h2>
       <ul className='list-group'>
         <li>For now, going to list my skillsets here:</li>
