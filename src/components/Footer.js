@@ -4,9 +4,11 @@ import React from 'react';
 // We assign them to their own variable names
 export default function Footer() {
   return (
-    <div>
+    <div className='mt-auto'>
       <div>
-        <h5 className='text-center p-2'>Portfolio last updated 5/20/2022</h5>
+        <h6 className='text-center'>
+          Portfolio last updated 5/20/2022 - <a href="https://github.com/kashane1">GitHub</a> - <a href="https://www.linkedin.com/in/kashanesakhakorn/">LinkedIn</a> - <a href="https://twitter.com/kashane27">Twitter</a>
+        </h6>
       </div>
     </div>
   );

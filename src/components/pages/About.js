@@ -1,10 +1,14 @@
 import React from 'react';
+import headshot from '../assets/headshot1.jpg';
 
 export default function About() {
   return (
-    <div>
-      <h2 className='text-center p-2'>About Page</h2>
-      <ul className='list-group'>
+    <div className='container'>
+      <h2 className='text-center p-2'>About Me:</h2>
+      <div className='d-flex justify-content-center'>
+        <img src={headshot} alt="headshot of Kashane and his dog" width="350" height="450" />
+      </div>
+      <ul className='p-3 list-group'>
         <li>I'll keep it short and sweet! -</li>
         <li>That's a picture of myself and Toto. I know, it's hard to tell which one of us is more photogenic.</li>
         <li>I was born and raised in Los Angeles, California. My father immigrated from Bangkok, Thailand, and my mother, who is of Irish and English decent, was born in Los Angeles.</li>
