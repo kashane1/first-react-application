@@ -39,3 +39,12 @@ export default function Portfolio() {
     </div>
   );
 }
+
+// notes here, on how to import an image and use it in react.js
+
+// import Logo from "../src/Reactlogo.jpg";
+// class App extends Component {
+//   render() {
+//     return <img src={Logo} />
+//   }
+// }
