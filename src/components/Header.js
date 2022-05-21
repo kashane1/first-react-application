@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <div>
       <div class='card-header border-dark'>
-        <h1 className='m-2 p-2'>Kashane Sakhakorn's Resume</h1>
+        <h1 className='m-2 p-2'>Kashane Sakhakorn 👽</h1>
       </div>
       <ul className="nav nav-tabs justify-content-end m-2 p-0 bg-info bg-opacity-10 border-bottom border-info">
         <li className="nav-item">
